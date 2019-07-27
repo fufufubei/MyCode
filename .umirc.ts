@@ -20,6 +20,9 @@ const config: IConfig =  {
       },
     }],
   ],
+  cssLoaderOptions:{
+      localIdentName:'[local]',
+  },
   extraPostCSSPlugins: [
     //https://www.npmjs.com/package/postcss-plugin-px2rem
     px2rem({

@@ -1,0 +1,58 @@
+.login {
+  background: #f1f1f1;
+  height: 100%;
+}
+.login .head {
+  height: 260px;
+  background: #fff;
+  margin-bottom: 22px;
+  padding: 0 24px;
+}
+.login .head .photo {
+  padding: 10px;
+  border-radius: 50%;
+  border: 1PX solid #f1f1f1;
+  margin-right: 25px;
+}
+.login .head .photo img {
+  width: 122px;
+  height: 122px;
+  border-radius: 50%;
+}
+.login .head .txt {
+  font-size: 32px;
+  color: #1a1a1a;
+  line-height: 38px;
+}
+.login .line-box {
+  padding: 36px 24px;
+  background: #fff;
+  margin-bottom: 20px;
+}
+.login .line-box .label {
+  font-size: 26px;
+  color: #333333;
+  padding-left: 15px;
+  line-height: 30px;
+}
+.login .line-box i.icon {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+}
+.login .line-box .recharge {
+  width: 148px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 26px;
+  color: #fff;
+  margin-left: 20px;
+  background: #1a1a1a;
+}
+.login .login-out {
+  font-size: 26px ;
+  color: #ff4e4e;
+  text-align: center;
+  line-height: 100px;
+  background: #fff;
+}
