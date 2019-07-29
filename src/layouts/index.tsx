@@ -13,7 +13,10 @@ const BasicLayout: React.FC = props => {
     useEffect(()=>{
         console.log('第二个参数数组有值-当数组内值发生变化的时候触发')
     },[count])
-   
+    function counts(a:String){
+        alert(a)
+
+    }
   return (
     <div className={styles.page}>
       {props.children}
@@ -28,7 +31,7 @@ const BasicLayout: React.FC = props => {
           </div>
           <div className="nav um-flex-item">
               <i className="icon"></i>
-              <div className="txt">订单</div>
+              <div className="txt" onClick={()=>counts('订单')}>订单</div>
           </div>
           <div className="nav um-flex-item">
               <i className="icon"></i>
@@ -38,16 +41,4 @@ const BasicLayout: React.FC = props => {
     </div>
   );
 };
-// class BasicLayout extends Component{
-//     constructor(props){
-//         this.state={
-
-//         }
-//     }
-//     render(){
-
-//     }
-
-// }
-
 export default BasicLayout;
